@@ -4,9 +4,9 @@ from PyQt5.QtWidgets import QFileDialog,QApplication,QMessageBox
 
 import sys
 
-import a_star_heap_yok as a_heap_yok
-import a_star_heap_var as a_heap_var
-import best_first_search as bfs
+import a_star_without_heap as a_heap_yok
+import a_star_with_heap as a_heap_var
+import best_first_search_without_heap as bfs
 import best_first_search_with_heap as bfs_heap
 
 class Ui_MainWindow(object):
